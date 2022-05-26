@@ -5,8 +5,9 @@
 ## Me. Matheus Maciel Alcantara Salles - PPGZoo - UFPR
 ## matheusmaciel.salles@gmail.com
 
-### Carregar pacote "usethis"
+### Carregar pacotes "usethis" e "devtools"
 library(usethis)
+library(devtools)
 
 # projeto
 usethis::create_project("C:/Users/mathe/OneDrive/docworkflowMatheus")
