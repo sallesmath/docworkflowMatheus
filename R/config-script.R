@@ -1,4 +1,4 @@
-#################### An�lises Doutorado Matheus ######################
+#################### An?lises Doutorado Matheus ######################
 ##################### PPGZoologia UFPR  #########################
 ############## Departamento de Zoologia ################
 
@@ -16,7 +16,7 @@ usethis::create_package("/Volumes/Samsung SSD/neanderh/Documents/pCloud/Discipli
 ### Adicionando git ao projeto
 usethis::use_git()
 # escolha se quer fazer o commit dos arquivos.
-# Se sim: Definitely ou Absolutely ou Yeah...
+# Se sim: Yup
 
 # escolha a opção para reiniciar o RStudio
 
@@ -37,3 +37,12 @@ usethis::git_sitrep()
 # global (a.k.a. user-level) .gitignore. This is good practice as it
 # decreases the chance that you will accidentally leak credentials to GitHub
 usethis::git_vaccinate()
+
+### Adicionando arquivos ---------------------------------
+## Criar um arquivo README.md
+usethis::use_readme_md()
+# O arquivo será criado e aberto, para ser editado e salvo.
+# faça o commit e Push para o GitHub
+
+### Ignorar arquivos no git ---------------------------------
+usethis::use_git_ignore(c("proj_setup/"))
